@@ -1,0 +1,201 @@
+@charset "UTF-8";
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+  background-color: black;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+#background{
+  margin-top:-120px;
+  background:url(../img/bg2.jpg) no-repeat;
+  background-size:cover;
+  padding-top:111px;
+  height:638px;
+  max-height:1112px;
+
+}
+
+#background .jumbotron{
+  background:none;
+  margin-left:137px;
+  max-width:1000px;
+  margin-top:180px;
+}
+
+#background .jumbotron h1{
+  font-family:'Poppins', sans-serif;
+  color:white;
+  margin-bottom:-12px;
+  font-size:50px;
+  font-weight: 800;
+}
+
+#background .jumbotron p{
+  font-family:raleway;
+  color:white;
+  margin-bottom:-12px;
+  margin-top:27px;
+  padding-right:307px;
+}
+
+
+#home{
+  text-align: center;
+}
+
+#home .container h1{
+  margin:36px;
+}
+
+#home .container .row{
+  margin:-3px;
+}
+
+#home .isi .container.atas{
+  background-color:#f9f8f8;
+  margin-top:-85px;
+  padding-bottom:37px;
+}
+
+.glyphicon{
+  position: relative;
+  font-size: 42px;
+  color: #27475e;
+}
+
+.container.bawah{
+  text-align: center;
+}
+
+#news{
+  margin-top: 31px;
+  background-color: #f9f8f8;
+  padding-top: 43px;
+  padding-bottom: 25px;
+}
+
+/*===== HOME =====*/
+.home{
+  height: calc(100vh - 3rem);
+}
+.home__data{
+  align-self: center;
+}
+.home__title{
+  font-size: 40px;
+  margin-bottom: var(--mb-5);
+}
+.home__title-color{
+  color: var(--first-color);
+}
+
+.home__img{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 295px;
+}
+
+
+.h2{
+    width: 100%;
+    justify-content: center;
+    color: grey;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.h2 h2{
+    margin: 0px 10px;
+}
+
+.container{
+    align-items: center;
+
+}
+
+.populartexs{
+  color:black;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+img{
+    width: 250px;
+}
+
+
+/* about */
+.card{
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card img{
+  width: 400px;
+  align-items: center;
+
+}
+.judulabout{
+  font-size: 30px;
+  color: black;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+
+#card1{
+  background-image: url(../img/logo-design-2x.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  height: 400px;
+
+
+}
+#card2{
+  background-image: url(../img/illustration-2x.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+
+}
+#card3{
+  background-image: url(../img/wordpress-2x.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#card1 .h3{
+  color: #fff;
+}
+  /* ===== FOOTER =====*/
+.footer{
+    background-color:gray;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .footer__title{
+    font-size: 2rem;
+  }
+  .footer__social{
+    margin-bottom: var(--mb-4);
+  }
+  .footer__icon{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 var(--mb-2)
+  }
+

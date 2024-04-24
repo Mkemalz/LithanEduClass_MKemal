@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.card-content2 {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    margin-left: -50px;
+    padding: 50px;
+    gap: 10px;
+}
+
+.card-column2 {
+    width: 20%;
+    padding: 0 16px;
+    display: flex;
+    margin-right: 100px;
+}
+
+
+
+.card:hover {
+    background-color: rgb(62, 81, 87);
+}
+
+
+.form-group button {
+    margin: 15px 0;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    border: 1px white;
+}
+
+input {
+    height: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 8px;
+    border: 1px white;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    height:100vh;
+    background-image: url("../img/bgregis.jpg");
+    background-size: cover;
+    background-position-x: top;
+}
+
+h4 {
+	text-align:center;
+	color:white;
+	font-size:14px;
+	margin-bottom: 9px;
+	
+}
+p {
+	text-align: center;
+	font-size:12px;
+}
+.h2{
+	color:white;
+}
+
+

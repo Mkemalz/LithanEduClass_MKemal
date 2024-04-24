@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+.card-content2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: -50px;
+    padding: 50px;
+    margin-top: 80px;
+   
+}
+
+.card-column2 {
+    width: 20%;
+    padding: 0 16px;
+    display: flex;
+    height: 300px;
+}
+
+.card2 {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    transition: 1s;
+}
+
+.form-group button {
+    margin: 15px;
+    width: 93%;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    border: 1px white;
+}
+
+h2{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    height: 50px;
+    width: 400px;
+    
+    
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+   
+}
+h4{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    margin-top: 50px;
+    width: 400px;
+}
+
+a{
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background:rgb(91, 85, 85);
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
